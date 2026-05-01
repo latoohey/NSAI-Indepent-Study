@@ -1,0 +1,4 @@
+model,notes,cv_accuracy_mean,cv_accuracy_std,cv_recall_mean,cv_recall_std,test_accuracy,test_recall_recurrence,test_precision_recurrence,test_f1_recurrence,test_true_neg,test_false_pos,test_false_neg,test_true_pos
+HistGBM (unconstrained),"Reference: same model class as constrained versions, no constraints",0.64,0.028,0.306,0.026,0.665,0.325,0.684,0.441,210,24,108,52
+HistGBM (lymph nodes monotonic),Single high-confidence constraint,0.646,0.025,0.319,0.023,0.668,0.325,0.693,0.443,211,23,108,52
+HistGBM (full prognostic monotonic),Lymph nodes + Tumor Size + Histologic Grade,0.643,0.028,0.317,0.018,0.668,0.319,0.699,0.438,212,22,109,51

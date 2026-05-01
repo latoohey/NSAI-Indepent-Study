@@ -1,0 +1,7 @@
+model,notes,n_train,n_test,cv_accuracy_mean,cv_accuracy_std,cv_recall_mean,cv_recall_std,test_accuracy,test_recall_recurrence,test_precision_recurrence,test_f1_recurrence,test_true_neg,test_false_pos,test_false_neg,test_true_pos
+GBM (chapter-faithful),Chapter's 6 features INCLUDING leaky 'Relapse Free Status (Months)',1576,394,0.783,0.021,0.634,0.039,0.769,0.631,0.759,0.689,202,32,59,101
+GBM (canonical baseline),Chapter's 6 features WITHOUT leaky feature — comparison anchor,1576,394,0.612,0.014,0.27,0.048,0.609,0.25,0.541,0.342,200,34,120,40
+GBM (full features),"All 18 predictors, chapter's hyperparameters",1576,394,0.64,0.029,0.305,0.028,0.665,0.344,0.671,0.455,207,27,105,55
+Logistic Regression (full features),"All 18 predictors, default hyperparameters",1576,394,0.654,0.017,0.345,0.045,0.662,0.319,0.68,0.434,210,24,109,51
+Logistic Regression (canonical),"Chapter's 6 features (no leaky), default hyperparameters",1576,394,0.611,0.023,0.241,0.038,0.602,0.219,0.522,0.308,202,32,125,35
+"GBM (recall-tuned, full features)","GridSearchCV on recall, best={'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",1576,394,,,0.436,0.076,0.602,0.394,0.512,0.445,174,60,97,63

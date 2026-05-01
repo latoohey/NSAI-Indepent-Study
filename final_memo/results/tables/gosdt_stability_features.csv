@@ -1,0 +1,5 @@
+feature,n_trees_used,pct_of_trees
+Lymph nodes examined positive >= 2.00,10,100.0
+Pam50 + Claudin-low subtype_LumA,9,90.0
+Grade >= 3,8,80.0
+Radio Therapy,1,10.0

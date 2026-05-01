@@ -1,0 +1,2 @@
+n_confident_correct,n_confident_wrong,n_borderline,concentration_confident_correct_mean,concentration_confident_correct_std,concentration_confident_wrong_mean,concentration_confident_wrong_std,concentration_borderline_mean,concentration_borderline_std,top5_overlap_pct
+77,22,59,0.856,0.018,0.854,0.021,0.868,0.02,80.0

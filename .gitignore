@@ -1,2 +1,10 @@
+.corels-env/
+/.corels-env
+.nsai-final-env/
+/.nsai-final-env
 corels-env/
 /corels-env
+nsai-final-env/
+/nsai-final-env
+notes/
+*.ipynb_checkpoints

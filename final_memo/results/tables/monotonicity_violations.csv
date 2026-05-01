@@ -1,0 +1,4 @@
+Feature,Unconstrained violations,Lymph-nodes constrained,Full prognostic constrained
+Lymph nodes,5/394 (1.3%),0/394 (0.0%),0/394 (0.0%)
+Tumor Size,45/394 (11.4%),not constrained,0/394 (0.0%)
+Histologic Grade,0/394 (0.0%),not constrained,0/394 (0.0%)

@@ -1,0 +1,3 @@
+model,notes,test_accuracy,test_recall_recurrence,test_precision_recurrence,test_f1_recurrence,n_leaves,n_features_used,test_true_neg,test_false_pos,test_false_neg,test_true_pos
+GOSDT (selected config),"reg=0.005, depth=5",0.65,0.375,0.612,0.465,4,3,196,38,100,60
+GOSDT (chapter's 6 features),Head-to-head with chapter's feature subset,0.612,0.244,0.549,0.338,4,3,202,32,121,39
